@@ -30,7 +30,7 @@ Understanding that studying can sometimes be stressful, I integrated the timer w
    ```
    cd path\to\hogwarts-pomodoro-timer
    ```
-3. Install Homebrew
+3. Install Homebrew (if you haven't)
    ```
    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
@@ -41,7 +41,7 @@ Understanding that studying can sometimes be stressful, I integrated the timer w
    ```
 
 4. Install NodeJS
-   If you haven't installed Homebrew:
+
    ```
    brew install node
    ```
@@ -52,8 +52,9 @@ Understanding that studying can sometimes be stressful, I integrated the timer w
 
 ## Usage 
  To run the application: 
-4. Start the local server 
+
+ 4. Start the local server 
    ```
    npm start
    ```
-5. To terminate the local server upon finishing using the web app, press Control + C. 
+ 5. To terminate the local server upon finishing using the web app, press Control + C. 
