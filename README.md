@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# Hogwarts-themed Pomodoro Timer 
+This web application - hosted on a local server - is a classic Pomodoro Timer that informs you when to take a 25 minutes study session and 5 minutes break session. In addition to that, it pulls a randomly generated spell from Harry Potter. Any Harry Potter fan is sure to fall in love with this web app!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Understanding that studying can sometimes be stressful, I integrated the timer with something that I love: Harry Potter. The web app's background makes it feel like one is  studying at Hogwarts, creating an enjoyable and relaxing learning session. Enjoy!
 
-## Available Scripts
+## Features
+- Pomodoro Timer (25 min studying, 5 min break) that allows you to start the timer and reset the timer
+- Display a randomly generated spell from the HP API
 
-In the project directory, you can run:
+## Prerequisites
 
-### `npm start`
+- A functional Web Browser 
+- Install Homebrew 
+- Install NodeJS
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Setup
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Go to the Terminal, and Clone the repository or download the source code.
+   ```
+   git clone https://github.com/lisacao2906/hogwarts-pomodoro-timer.git
+   ```
+   
+2. Navigate to the project's directory
 
-### `npm test`
+   (For Mac)
+   ```
+   cd path/to/hogwarts-pomodoro-timer
+   ```
+   (For Windows) 
+   ```
+   cd path\to\hogwarts-pomodoro-timer
+   ```
+3. Install Homebrew
+   ```
+   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+   ```
+   Verify Homebrew Installation through checking the version of Homebrew install on your system.
+   ```
+   brew --version
+   ```
 
-### `npm run build`
+4. Install NodeJS
+   If you haven't installed Homebrew:
+   ```
+   brew install node
+   ```
+   Install Node Package Manager 
+   ```
+   npm install
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Usage 
+ To run the application: 
+4. Start the local server 
+   ```
+   npm start
+   ```
+5. To terminate the local server upon finishing using the web app, press Control + C. 

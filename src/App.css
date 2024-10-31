@@ -1,38 +1,68 @@
-.App {
-  text-align: center;
-}
+/*thanks AI for this Hogwarts-inspired theme!*/
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body {
+  margin: 0;
+  font-family: 'Calibri', sans-serif; /* Use Calibri font */
+  background-color: #2b2b2b; /* Dark background color */
+  color: #f9f9f9; /* Light text color for contrast */
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  text-align: center;
+  background-image: url('https://images.ctfassets.net/usf1vwtuqyxm/5Fq1VKyAdUcf3b6dHDYBGs/a17b72dfe1f3e18955a4a994b707af48/hogwarts-castle-exterior-fact-file-image.jpg'); /* Hogwarts-themed background */
+  background-size: cover;
+  background-position: center;
 }
 
-.App-link {
-  color: #61dafb;
+.app {
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent dark background */
+  border-radius: 15px;
+  padding: 40px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  max-width: 600px; /* Limit the width of the app */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Text shadow for a magical effect */
+  color: #d4af37; /* Gold color for the heading */
 }
+
+.timer, .quote {
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.1); /* Light transparent background for components */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+button {
+  margin: 5px;
+  padding: 10px 15px;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+  background-color: #d4af37; /* Gold color for buttons */
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #b58d1e; /* Darker shade on hover */
+}
+
+.time-display {
+  font-size: 2em;
+  margin: 10px 0;
+}
+
+.quote-text {
+  font-size: 1.5em;
+  margin: 10px 0;
+  font-style: italic; /* Style for the quote text */
+  color: #f9f9f9; /* Text color */
+}
+
