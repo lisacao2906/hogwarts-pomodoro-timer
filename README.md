@@ -53,8 +53,8 @@ Understanding that studying can sometimes be stressful, I integrated the timer w
 ## Usage 
  To run the application: 
 
- 4. Start the local server 
+ 1. Start the local server 
    ```
    npm start
    ```
- 5. To terminate the local server upon finishing using the web app, press Control + C. 
+ 2. To terminate the local server upon finishing using the web app, press Control + C. 
